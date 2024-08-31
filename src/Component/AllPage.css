@@ -1,0 +1,12 @@
+.all-button {
+    /* background-color: #f8f9fa; */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.all-page {
+    /* padding: 20px; */
+    /* background-color: #fff; */
+    text-align: center;
+}

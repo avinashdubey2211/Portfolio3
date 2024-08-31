@@ -1,0 +1,84 @@
+.skills-section {
+    background-color: #200037; /* The background color same as the image */
+    padding: 40px;
+    color: white;
+    text-align: center;
+   
+  
+}
+
+.skills-section h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.white-text {
+    color: white;
+}
+
+.orange-text {
+    color: #ff7f00; /* Same as the orange color in the image */
+}
+
+.skill-bar {
+    margin-bottom: 20px;
+}
+
+.skill-bar p {
+    margin: 0;
+    font-size: 18px;
+    text-align: left;
+    color: white;
+}
+
+.progress-bar {
+    background-color: #333;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 10px;
+    margin-top: 5px;
+}
+
+.progress {
+    background-color: #ff7f00; /* Same as the orange color in the image */
+    height: 100%;
+    border-radius: 5px;
+}
+
+/* Media Query for Tablets */
+@media (max-width: 768px) {
+    .skills-section h2 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .skill-bar p {
+        font-size: 16px;
+    }
+}
+
+/* Media Query for Mobile Phones */
+@media (max-width: 480px) {
+    .skills-section {
+        padding: 20px;
+        margin-top: -600px;
+    }
+
+    .skills-section h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .skill-bar p {
+        font-size: 14px;
+    }
+
+    .progress-bar {
+        height: 8px; /* Reduce height of progress bar */
+    }
+
+    .progress {
+        background-color: #ff7f00; /* Keep the orange color */
+    }
+}

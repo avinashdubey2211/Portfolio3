@@ -1,0 +1,120 @@
+/* 
+/* about section  */
+.about-section {
+    text-align: center;
+    margin-top: -25px;
+    background-color: #190033;
+    /* max-height:  600px; */
+    padding: 40px 20px;
+  }
+  
+  .about-title {
+    color: white; 
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .orange-text {
+    color: orange; /* "Me" is orange */
+  }
+  .about-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .about-photo img {
+    width: 40%; /* Adjust size as needed */
+    height: 40%;
+   
+    margin-bottom: 40px;
+  }
+  
+  .about-intro {
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .about-intro h2 {
+    color: white; /* Use your desired color */
+    margin-bottom: 20px;
+  }
+  
+  .about-intro p {
+    margin-bottom: 15px; /* Spacing between paragraphs */
+    color:  white;
+  }
+  
+  .read-more-button {
+    background-color: white; /* Button background color */
+    color: rgb(90, 29, 29); /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 55px;
+    cursor: pointer;
+    margin-top: 20px; /* 20px below the paragraphs */
+  }
+  
+  .read-more-button:hover {
+    background-color: #16437E; /* Hover state color */
+  }
+/*   
+  /* Media Query for Tablets and Smaller Screens */
+@media (max-width: 768px) {
+  .about-content {
+      flex-direction: row;
+      align-items: center;
+  }
+
+  .about-photo img {
+      width: 50%; 
+      margin-bottom: 20px;
+     
+  }
+
+  .about-intro {
+      text-align: center; /* Center text on smaller screens */
+  }
+
+  .about-intro h2 {
+      margin-bottom: 15px;
+  }
+
+  .about-intro p {
+      margin-bottom: 10px;
+  }
+
+  .read-more-button {
+      margin-top: 15px;
+  }
+}
+
+/* Media Query for Mobile Phones */
+@media (max-width: 480px) {
+  .about-title {
+      font-size: 28px;
+      margin-bottom: 30px;
+  }
+
+  .about-photo img {
+      width: 100%; /* Full width on mobile phones */
+  }
+
+  .about-intro h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+  }
+
+  .about-intro p {
+      font-size: 16px;
+      margin-bottom: 10px;
+  }
+
+  .read-more-button {
+      padding: 8px 16px;
+      font-size: 16px;
+      margin-top: 15px;
+  }
+}
+    
