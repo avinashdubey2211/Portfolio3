@@ -29,9 +29,10 @@ const AboutMe = () => {
         </div>
         <div className="about-intro">
           <h2>Frontend Developer</h2>
+          <br></br>
           <p>
-            This is a four-line introduction about yourself that gives the reader an overview of who you are, 
-            your experience, and what you do. It should be concise yet informative, giving enough context to engage the reader.
+            This is a four-line introduction about <br></br>yourself that gives the reader an overview of who you are, 
+            your experience, <br></br>and what you do. <br></br>It should be concise yet informative, giving enough context to engage the reader.
           </p>
           <p style={{ marginTop: "15px" }}>
             This is a two-line continuation of your introduction that might add more personal details or discuss your goals and aspirations.

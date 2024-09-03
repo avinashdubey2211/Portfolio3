@@ -44,7 +44,7 @@ const Skills = () => {
                 </div>
             </div>
             <div className="skill-bar">
-                <p>Adobe Illustrator</p>
+                <p>React.js</p>
                 <div className="progress-bar">
                     <div className="progress" style={{ width: '60%' }}></div>
                 </div>
